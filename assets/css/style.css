@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/Header\ Background.png);
+    background-position-y: 100%;
+    background-position-x: 76%;
+    padding: 40px 20px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #efefef;
+    margin-bottom: 30px;
+}
+
+.header-text h1 {
+    text-transform: uppercase;
+    font-family: 'Recursive', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+.header-text p {
+    margin-top: 20px;
+}
+
+.header-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.download {
+    padding: 10px;
+    background: #fff;
+    border: none;
+    border-radius: 1rem;   
+    cursor: pointer;
+}
+
+.download:hover {
+    transform: scale(1.03);
+    transition: 0.3s all linear;
+}
+
+.open {
+    padding: 10px;
+    background: #23272A;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;   
+    cursor: pointer;
+}
+
+.open:hover {
+    transform: scale(1.03);
+    transition: 0.3s all linear;
+}
+
+.section-s {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+.section-d {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    background: #F6F6F6;
+}
+.section-a {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    background: #F6F6F6;
+}
+
+.images {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images-b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images-b img {
+    max-width: 80%;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-text h1 {
+    font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #23272A;
+    padding: 20px;
+}
+footer img {
+    max-width: 30%;
+}
+@media (min-width:500px){
+    .section-s {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .section-d {
+        flex-direction: row-reverse;
+        gap: 30px;
+    }
+
+    .images {
+        width: 250%;
+    }
+
+}
+
+@media (min-width:600px){
+    .header-content {
+        background-position-y: 0%;
+        background-position-x: 0%;
+        padding: 50px 10%;
+    }
+
+    .header-text {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-buttons {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .download {
+        padding: 10px 20px;
+    }
+
+    .open {
+        padding: 10px 20px;
+    }
+
+    .section-a {
+        padding: 50px 10%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-d{
+        padding: 50px 10%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-s{
+        padding: 50px 10%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-text h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width:1200px){
+    .header-content {
+        padding: 50px 20%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .header-text h1 {
+        font-size: 2rem;
+    }
+    .header-text p {
+        font-size: 1rem;
+    }
+
+    .header-buttons {
+        gap: 1.5rem;
+    }
+
+    .section-a {
+        padding: 50px 20%;
+        gap: 60px;
+    }
+
+    .section-d{
+        padding: 50px 20%;
+        gap: 60px;
+    }
+
+    .section-s{
+        padding: 50px 20%;
+        gap: 60px;
+    }
+
+    .section-text h1 {
+        font-size: 1.8rem;
+    }
+}
