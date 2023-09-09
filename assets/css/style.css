@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 html::-webkit-scrollbar {
     width: 0.5rem;
     background: transparent;
@@ -11,6 +15,10 @@ html::-webkit-scrollbar {
 
 html::-webkit-scrollbar-thumb {
     background: #5562ea;
+}
+
+html.sr .load-hidden {
+    visibility: hidden;
 }
 
 img {
