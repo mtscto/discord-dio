@@ -4,6 +4,15 @@
     font-family: sans-serif;
 }
 
+html::-webkit-scrollbar {
+    width: 0.5rem;
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #5562ea;
+}
+
 img {
     max-width: 100%;
 }
