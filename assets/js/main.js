@@ -7,13 +7,13 @@ ScrollReveal().reveal('.button-line', { delay: 500, })
 /* ScrollReveal Main */  
 
 var slideUp = {
-    distance: '150%',
+    distance: '3%',
     origin: 'bottom',
     opacity: 0,
 };
 
 var slideLeft = {
-    distance: '150%',
+    distance: '3%',
     origin: 'right',
     opacity: 0,
     delay: 500,
@@ -21,7 +21,7 @@ var slideLeft = {
 };
 
 var slideRight = {
-    distance: '150%',
+    distance: '3%',
     origin: 'left',
     opacity: 0,
     delay: 500,
