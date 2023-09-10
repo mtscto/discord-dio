@@ -18,7 +18,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 html.sr .load-hidden {
-    display: none;
+    visibility: hidden;
 }
 
 img {
